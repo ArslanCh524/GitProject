@@ -62,7 +62,7 @@ namespace GitProject
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=AddController}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
