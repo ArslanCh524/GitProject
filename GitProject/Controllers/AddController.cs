@@ -14,6 +14,13 @@ namespace GitProject.Controllers
             int c = a + b;
             ViewBag.c = c;
             return View();
+        } public IActionResult Subtraction()
+        {
+            int a = 10, b = 5;
+            int c = a - b;
+            ViewBag.c = c;
+            return View();
         }
+
     }
 }
